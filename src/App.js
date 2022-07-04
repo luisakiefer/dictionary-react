@@ -9,10 +9,23 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
+
       <main>
-        <Dictionary defaultKeyword="word"/>
+        <Dictionary defaultKeyword="word" />
       </main>
-      <footer className="App-footer">Coded by Luisa Kiefer</footer>
+
+      <footer className="App-footer">
+        This project was coded by{" "}
+        <a
+          href="https://github.com/luisakiefer"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Luísa Kiefer
+        </a>{" "}
+        and hosted by {" "} 
+        <a href="https://netlify.com" target="_blank" rel="noreferrer">Netlify</a>.
+      </footer>
     </div>
   );
 }

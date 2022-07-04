@@ -51,9 +51,10 @@ export default function Dictionary(props) {
           <input type="submit" value="search" className="search-button" />
         </form>
         <Results results={results} />
-        <section>
+        <section className="photos-end">
           <Photos photos={photos} />
         </section>
+        
       </div>
     );
   } else {

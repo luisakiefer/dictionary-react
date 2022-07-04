@@ -1,3 +1,7 @@
-a {
-  font-style: none;
+.listen-icon {
+  text-decoration: none;
+}
+
+.text {
+  margin-left: 12px;
 }
