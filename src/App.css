@@ -2,10 +2,9 @@ body {
   background-color: #f8f3ef;
 }
 
-
 .App {
   max-width: 960px;
-  margin: 30px;
+  margin: 30px auto;
 }
 
 .App-header {
