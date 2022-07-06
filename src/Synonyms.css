@@ -1,13 +1,12 @@
-
 .Synonyms {
   margin: 15px 0 15px;
   padding: 0;
-
 }
 li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #5c473c;
   display: inline-flex;
   justify-content: space-between;
-  padding-right: 20px; 
+  padding-right: 20px;
   line-height: 1px;
 }
